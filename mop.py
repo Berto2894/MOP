@@ -7,7 +7,7 @@ print(model_path)  # Verify the path
 Prediksi_model = pickle.load(open(model_path, 'rb'))
 
 #Judul Web
-st.title('KLASIFIKASI ELIGIBILTAS PENERIMA MOP')
+st.title('KLASIFIKASI ELIGIBILTAS PENERIMA MOTORCYCLE OWNERSHIP PROGRAM')
 
 GRADE = st.text_input('Input Nilai Grade Anda')
 LOS = st.text_input('Input berapa Tahun anda sudah bekerja')
